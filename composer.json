@@ -1,0 +1,19 @@
+{
+    "name": "user/pdc10-crud-mongodb",
+    "autoload": {
+        "psr-4": {
+            "User\\Pdc10CrudMongodb\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ehtluhg",
+            "email": "dy.gabrielrhobert@auf.edu.ph"
+        }
+    ],
+    "require": {
+        "mongodb/mongodb": "^1.12",
+        "vlucas/phpdotenv": "^5.5",
+        "mustache/mustache": "^2.14"
+    }
+}
