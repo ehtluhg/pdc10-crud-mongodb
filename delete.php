@@ -8,4 +8,4 @@ use \StudentHandler;
 
 $handler = new StudentHandler;
 
-$records = $handler->insert();
+$records = $handler->delete();
